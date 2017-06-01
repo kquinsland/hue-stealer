@@ -1,6 +1,6 @@
 #!/bin/bash
-username=""
-address=""
+username="$2"
+address="$1"
 url="http://$address/api"
 
 # From https://www.reddit.com/r/Hue/comments/3wchnf/philips_hue_blocks_osram_ge_and_cree_bulbs_with/cxvj23t/
