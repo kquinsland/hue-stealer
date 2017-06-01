@@ -19,6 +19,8 @@ If you know the IP of your bridge already, you can skip this step.  Otherwise, I
 
 You can use the `bridges` command to get a list of bridges using your internet connection to phone home.
 
+if you don't have an internet connection or your bridge is not connected to the internet, you'll need to get the IP manually.  You can do this w/ the Hue app on your phone.
+
 ```
 $ php steal.php bridges
 
